@@ -4,7 +4,7 @@
   "description": "Simple demo of import maps",
   "author": "sasoria",
   "scripts": {
-    "start": "http-server -a localhost -p 3000 ."
+    "start": "http-server -a localhost -p 3000 ./src"
   },
   "dependencies": {
     "http-server": "0.12.3"
