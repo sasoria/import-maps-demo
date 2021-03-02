@@ -1,0 +1,12 @@
+{
+  "name": "import-maps-demo",
+  "version": "1.0.0",
+  "description": "Simple demo of import maps",
+  "author": "sasoria",
+  "scripts": {
+    "start": "http-server -a localhost -p 3000 ."
+  },
+  "dependencies": {
+    "http-server": "0.12.3"
+  }
+}
