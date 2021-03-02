@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Import maps demo</title>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://cdn.skypack.dev/react",
+        "react-dom": "https://cdn.skypack.dev/react-dom"
+      }
+    }
+    </script>
+    <script type="module">
+      import react from 'react';
+      console.log(react);
+    </script>
+    <script type="module">
+      import react from 'react';
+      console.log(react);
+    </script>
+    <script type="module">
+      import react from 'react';
+      console.log(react);
+    </script>
+    <script type="module">
+      import react from 'react';
+      console.log(react);
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
